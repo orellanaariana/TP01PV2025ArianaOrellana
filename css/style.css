@@ -1,0 +1,55 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #d7c9aaff;
+}
+
+header {
+font-family:'Times New Roman', Times, serif;
+background-color:rgb(255, 254, 253);
+color: #7b2d26ff;
+font-size: xx-large;
+text-align: center;
+padding: 10px;
+margin: 10px;
+}
+
+form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: ;
+}
+
+nav {
+    background:rgb(160, 53, 37);
+    padding:10px ;
+}
+nav ul {
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px; 
+}
+nav ul li a {
+color: white;
+text-decoration: double;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    padding: 20px;
+}
