@@ -1,5 +1,5 @@
 <html lang="es">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../css/style.css">
 
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,7 @@
 </nav>
 
 <body>
-
+    
     <div class="input-group">
         <form action="destino_formulario.php" method="post">
             <p>
@@ -33,11 +33,17 @@
                 <label for="asunto">Asunto:</label>
                 <input type="text" id="asunto" name="asunto">
             </p>
+            <p>
                 <label for="mensaje">Mensaje:</label>
                 <textarea type="text" id="mensaje" name="mensaje"></textarea>
-                
-                <input type="submit" value="Enviar">
-    </div>
+            </p>
+            <p>
+                 <input type="submit" value="Enviar">
+                </p>    
+            <p><label for="termino_condicion">Acepta nuestros terminos y condiciones?</label>
+            <input type="checkbox" id="termino_condicion" name="termino_condicion">
+            </p>
+        </div>
     <footer>
         <p>&copy; 2025 - Italia en Europa</p>
     </footer>
